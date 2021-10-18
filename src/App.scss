@@ -1,0 +1,152 @@
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+//Main Menu CSS
+
+.imgsize {
+    width: 100%;
+    height: 500px;
+}
+.mainmenu {
+    position: relative;
+    max-width:100% ;
+
+    &-content {
+        position: absolute;
+        right: 20%;
+        top: 30%;
+        max-width: 350px;
+        color: rgb(11, 12, 1);
+        transform: translateY(0%);
+    }
+    h1{
+        font-size: 40px;
+        text-shadow: 7px 6px 11px #353803;
+    }
+    p{
+        font-size: 18px;
+        margin-top: 25px;
+    }
+}
+
+//Main Menu CSS Ends
+
+//SpacialDishes CSS
+
+.specialdishes{
+    justify-content: center;
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+
+    h1{
+        font-size: 48px;
+        height: 75px;
+        padding-top: 5px;
+        box-shadow: 0px 0px 3px black;
+    }
+   
+    &-content{
+        width: max-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;    
+    }
+
+    &-menu{
+        width: 100%;
+    }
+    &-menu1{
+        justify-content: center;
+    }
+    p{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+}
+.list1{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:15%;
+    box-shadow: 0px 0px 9px black;
+}
+
+//SpacialDishes CSS ends
+
+//Filter CSS
+
+.filtered-dishes{
+
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+   p{
+       width: 450px;
+       text-align: center;
+       margin-left: 30%;
+       margin-top: 50px;
+       margin-bottom: 50px;
+   }
+   h1{
+    font-size: 48px;
+    height: 75px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 3px black;
+   }
+}
+
+
+//Filter CSS
+
+
+
+    .filtered-dishes-list{
+
+        li{
+            background-color: #ffb902;
+            color: aliceblue;
+            padding: 12px 44px;
+            border-radius: 30px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: all ease 0.5s;
+            justify-content: center;
+        
+        &.active{
+            background-color: black;
+        }
+        &:hover{
+            background-color: black;
+        }
+    }
+    
+    }
+
+    .notfound{
+        width:100%;
+        height: 120px;
+        background-color: rgb(242, 255, 255);
+        border: 3px solid red;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        box-shadow: 1px 0px 6px red;
+    }
